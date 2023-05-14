@@ -13,6 +13,7 @@
   }
 }
 
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +36,204 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 25px;
+  font-size: 24px;
+  font-weight: bold;background: linear-gradient(228.93deg, #3FE1B0 -2.97%, #00B3F4 34.14%, #03B0F4 35.51%, #5561E9 71.8%, #7542E5 88.43%);
+  background: linear-gradient(228.93deg, #3FE1B0 -2.97%, #00B3F4 34.14%, #03B0F4 35.51%, #5561E9 71.8%, #7542E5 88.43%);
+  height: 30px;
+width: 30px;
+
+border-radius: 0px;
+color: white;
+text-align: center;
+  
+}
+  .pres {
+    position: absolute;
+    top: 35px;
+    left: 0;
+    margin: 10px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+  
+  
+
+.form-container {
+  width: 400px;
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px 0 0 5px;
+}
+
+input {
+  height: 40px;
+  width:280px;
+  border: none;
+  background-color: #f9f9f9;
+  padding: 5px 10px;
+  border-radius: 0 5px 5px 0;
+}
+
+div.password-strength {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+}
+
+div.password-strength div {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+div.password-strength div.valid {
+  color: green;
+}
+
+div.password-strength div.invalid {
+  color: red;
+}
+
+button {
+  background-color:black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:rgba(0, 0, 0, 0.1);
+}
+.account{
+  font-weight: bold;
+
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 700;
+  
+  text-align: left;height: 45px;
+  width: 289px;
+  left: 390px;
+  top: 108px;
+  border-radius: nullpx;
+  
+  
+
+}
+.signin {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+
+text-align: right;
+
+}
+.signup{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  
+}
+.credit{
+  font-size:15px;
+  height: 20px;
+width: 157px;
+left: 390px;
+top: 158px;
+border-radius: nullpx;
+
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+text-align: left;
+
+}
+
+input:invalid {
+  border: 2px solid red;
+}
+
+label:invalid {
+  background-color: red;
+}
+.AI{
+  font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+
+text-align: left;
+
+}
+
+.abc{
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: bold;
+  
+  text-align: right;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 25px;
+  padding-left:30px;
+
+  height:70px;
+width: 75px;
+
+border-radius: 0px;
+color: black;
+text-align: center; 
 }
